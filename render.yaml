@@ -1,0 +1,8 @@
+version: 1
+services:
+  - type: worker
+    name: mycronj
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    plan: free
