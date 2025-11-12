@@ -35,7 +35,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\mateu\OneDrive\Documentos\runrequests\venv"
+VIRTUAL_ENV="C:\Users\mateu\OneDrive\Documentos\GitHub\mycronj\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
